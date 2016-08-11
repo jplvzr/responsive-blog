@@ -1,6 +1,59 @@
-/* Inserta tu codigo aqui */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
-/* Responsive */
+.container {
+	margin: 0 auto;
+	width: 60%;
+}
+
+header {
+	background-color: #1C1821;
+}
+
+section {
+	background-color: #2D2735;
+}
+
+footer {
+	background-color: #1C1821;
+}
+
+/* HEADER */
+
+header nav ul li {
+	display: inline-block;
+}
+
+/* SECTION */
+
+section .flower {
+	background-image: url("../image/header-image.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 10%;
+    text-align: center;
+}
+
+.header-box {
+	border: 1px solid #1C1821;
+	background-color: #1C1821;
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+}
+
+.flower h1 {
+	font-size: 2em;
+	color: #F7BA6A;
+}
+
+/* FOOTER */
+
+
 
 @media screen and (max-width : 920px) {
 
