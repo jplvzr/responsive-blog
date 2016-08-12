@@ -61,6 +61,9 @@ p {
 	padding: 1% 2%;
 }
 
+a:hover {
+	color:#F7BA6A;
+}
 /* HEADER */
 
 header nav a {
@@ -70,6 +73,9 @@ header nav a {
     padding-left: 5%;
 }
 
+.fa-bars {
+	display: none;
+}
 /* SECTION */
 
 .header-box div a {
@@ -92,7 +98,7 @@ header nav a {
 .header-box {
 	border: 1px solid #1C1821;
 	background-color: #1C1821;
-    width: 70%;
+    width: 80%;
     text-align: center;
     display: inline-block;
     padding: 5%;
@@ -100,7 +106,6 @@ header nav a {
 
 .flower-bg h1 {
 	font-family: 'Courgette';
-	font-size: 4em;
 	color: #F7BA6A;
 	line-height: normal;
 }
@@ -154,7 +159,7 @@ input[type="text"] {
     display: inline-block;
 }
 
-.fa {
+.red-soc {
 	padding: 2%;
     border: 1px solid #2D2735;
     border-radius: 50%;
@@ -163,7 +168,7 @@ input[type="text"] {
     color: #ffffff;
 }
 
-.fa:hover {
+.red-soc:hover {
 	border: 1px solid #2D2735;
     border-radius: 50%;
     background-color: #ffffff;
@@ -179,10 +184,26 @@ footer {
 
 @media screen and (max-width : 920px) {
 
-	
+header nav a {
+	display: none;
+}
+
+.fa-bars {
+	display: block;
+	padding: 5% 0;
+	float: right;
+}
+
+.fa-bars:hover {
+	color: #F7BA6A;
+}
 
 }
 
 @media screen and (max-width: 600px) {
+
+.gone {
+	display: none;
+}
 
 }
