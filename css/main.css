@@ -40,7 +40,6 @@ div a {
 
 div a {
 	font-size: 90%;
-    padding: 0 4%;
 }
 
 h4 {
@@ -66,12 +65,16 @@ p {
 
 header nav a {
 	display: inline-block;
-    font-size: 95%;
+    font-size: 85%;
     margin-top: 6%;
     padding-left: 5%;
 }
 
 /* SECTION */
+
+.header-box div a {
+	padding: 0 4%;
+}
 
 .flower-page {
 	padding: 4% 0;
@@ -163,6 +166,7 @@ input[type="text"] {
 .fa:hover {
 	border: 1px solid #2D2735;
     border-radius: 50%;
+    background-color: #ffffff;
     color: #F7BA6A;
 }
 
